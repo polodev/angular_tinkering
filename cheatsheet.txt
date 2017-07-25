@@ -1,2 +1,16 @@
 ng new <AppName>
 ng g component <component name>
+/**
+ * Router
+ */
+ //inside app.module.ts
+ import RouterModule from '@angular/router'
+ inside import properties RouterModule.forRoot([
+  path: '<path>',
+  component: '<componentname>'
+ ])
+ //inside app.component.html
+ <a routerLink="<path>" />
+ to view router content
+ <router-outlet>
+
